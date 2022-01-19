@@ -1,20 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>Title</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body>
-
-Выберите способ доставки заказа
-
-Курьером
-Дронами
-Пневмопочтой
-Почтой России
-
-Продолжить
-
-</body>
+  <head>
+      <meta charset="UTF-8">
+      <title>Title</title>
+      <link rel="stylesheet" href="css/style.css">
+  </head>
+  <body>
+    <h2>Выберите способ доставки заказа</h2>
+    <hr />
+    <form>
+        <p><input type="radio" name="delivery" value="man" />Курьером</p>
+        <p><input type="radio" name="delivery" value="dron" />Дронами</p>
+        <p><input type="radio" name="delivery" value="pneumo" />Пневмопочтой</p>
+        <p><input type="radio" name="delivery" value="rus_post" />Почтой России</p>
+        <button type="submit" formaction="address.html">Продолжить</button>
+    </form>
+  </body>
 </html>
